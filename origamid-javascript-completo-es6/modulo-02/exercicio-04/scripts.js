@@ -44,3 +44,5 @@ if(('Gato' === 'gato') || (5 > 2)) {
 } else {
   console.log('Falso');
 } // Cão
+
+addEventListener('click', function(){console.log(this.event.clientY)})
