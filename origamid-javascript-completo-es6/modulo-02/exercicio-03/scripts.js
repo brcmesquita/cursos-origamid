@@ -26,8 +26,3 @@ var numero = +'80' / 2; // 40
 var unidade = 'kg';
 var peso = numero + unidade; // '40kg'
 console.log(peso);
-
-
-
-
-
