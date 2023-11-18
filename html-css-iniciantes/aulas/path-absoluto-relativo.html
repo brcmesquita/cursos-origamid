@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+
+<body>
+  <div>
+
+    <p>
+      Em HTML, os caminhos absolutos e relativos são usados para especificar a localização de recursos, como imagens, folhas de estilo CSS, scripts JavaScript e links para outras páginas da web. Aqui estão exemplos de ambos:
+    </p>
+
+    <p>
+    <h1>1. Caminho Absoluto:</h1>
+    Um caminho absoluto especifica o local completo do recurso na web, incluindo o domínio e o caminho completo para o recurso. Geralmente, começa com "http://" ou "https://".
+    </p>
+
+    <p>
+      Exemplo de um caminho absoluto para uma imagem:
+      <img src="https://www.exemplo.com/imagem.jpg" alt="Exemplo de Imagem">
+    </p>
+
+  </div>
+
+  <div>
+
+    <p>
+      2. **Caminho Relativo:**
+      Um caminho relativo especifica o local do recurso em relação à localização do arquivo HTML atual. Os caminhos relativos não incluem o domínio e são usados quando o recurso está no mesmo servidor ou diretório que o arquivo HTML atual. </p>
+
+    <p> - Exemplo de caminho relativo para uma imagem no mesmo diretório:
+      ```html
+      <img src="imagem.jpg" alt="Imagem no Mesmo Diretório">
+      ```
+    </p>
+    <p> - Exemplo de caminho relativo para uma imagem em um diretório superior:
+      ```html
+      <img src="../imagens/imagem.jpg" alt="Imagem em Diretório Superior">
+      ```
+    </p>
+    <p> - Exemplo de caminho relativo para um arquivo CSS em um diretório diferente:
+      ```html
+      <link rel="stylesheet" href="css/estilo.css">
+      ```
+    </p>
+  </div>
+
+
+  <div>
+    <p>
+      Lembre-se de que os caminhos relativos dependem da estrutura do seu diretório de projeto. Se o arquivo HTML e o recurso estiverem em diretórios diferentes, você precisará navegar corretamente usando `"../"` para subir um diretório ou especificar o caminho completo a partir do arquivo HTML atual.</p>
+
+    <p>Usar caminhos relativos é uma prática comum, pois torna o código mais portátil e facilita a manutenção do site, especialmente em ambientes de desenvolvimento local e produção.
+    </p>
+  </div>
+</body>
+
+</html>
